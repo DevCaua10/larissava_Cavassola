@@ -295,7 +295,10 @@ nav {
         transform: translateX(0);
     }
 }
-
+.whatsapp-btn a{
+     font-size: 0.80rem;
+    color: #666
+}
 .badge-icon {
     width: 45px;
     height: 45px;
@@ -935,6 +938,10 @@ nav {
     padding: 100px 0;
     background: var(--bg);
 }
+.contato a {
+    color: #666;
+    font-size: 0.95rem;
+}
 
 .contato-content {
     padding-right: 40px;
@@ -1155,6 +1162,34 @@ footer p {
 a {
     text-decoration: none;
     color: inherit;
+}
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 56px;
+    height: 56px;
+    background-color: #25D366;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    z-index: 999;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.whatsapp-float svg {
+    width: 28px;
+    height: 28px;
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.08);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
 
